@@ -1,5 +1,5 @@
 # NEWS
-This is a awesome news website. 
+This is an awesome news website. 
 ## Stack
 | Package | Description |
 | --- | --- |
