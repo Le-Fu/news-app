@@ -1,0 +1,11 @@
+import React from 'react';
+
+export default class Detail extends React.Component {
+  render() {
+    return (
+      <div>
+        <p>this is detail.</p>
+      </div>
+    );
+  }
+}

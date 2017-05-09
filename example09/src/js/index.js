@@ -7,12 +7,6 @@ import ComponentIndexBody from "./components/bodyIndex";
 import "antd/dist/antd.css";
 
 class Index extends React.Component {
-  componentWillMount() {
-    console.log("Index-componentWillMount");
-  }
-  componentDidMount() {
-    console.log("Index-componentDidMount");
-  }
   render() {
     console.log("Index-render");
     return (
@@ -24,5 +18,3 @@ class Index extends React.Component {
     );
   }
 }
-
-ReactDOM.render(<Index />, document.getElementById("example"));
