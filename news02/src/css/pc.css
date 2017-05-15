@@ -306,7 +306,7 @@ iframe {
 
 .productlinks-fold-163, .productlinks-fold-126, .productlinks-fold-yeah, .productlinks-fold-mob {
     float: left;
-    /*display: inline-block;*/
+    display: inline;
     width: 116px;
     height: 34px;
     text-indent: -100em;
