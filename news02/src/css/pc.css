@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.headerMenu li {
+    padding: 0 15px;
+}
+
 .register {
     float: right !important;
 }

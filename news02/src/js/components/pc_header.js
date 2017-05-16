@@ -93,11 +93,11 @@ class PCHeader extends React.Component {
 		const userShow = this.state.hasLogined
 			? <Menu.Item key="logout" class="register">
 					<Button type="primary" htmlType="button">{this.state.userNickName}</Button>
-					&nbsp;&nbsp;
-					<Link target="_blank">
+					&nbsp;
+					<Link to={'/usercenter'} target="_blank">
 						<Button type="dashed" htmlType="button">个人中心</Button>
 					</Link>
-					&nbsp;&nbsp;
+					&nbsp;
 					<Button type="ghost" htmlType="button" onClick={this.logout.bind(this)}>退出</Button>
 				</Menu.Item>
 			: <Menu.Item key="register" class="register">
@@ -114,7 +114,7 @@ class PCHeader extends React.Component {
 						</a>
 					</Col>
 					<Col span={16}>
-						<Menu mode="horizontal" onClick={this.handleClick.bind(this)} selectedKeys={[this.state.current]}>
+						<Menu mode="horizontal" onClick={this.handleClick.bind(this)} selectedKeys={[this.state.current]} class="headerMenu">
 							<Menu.Item key="top">
 								<Icon type="appstore"/>头条
 							</Menu.Item>
